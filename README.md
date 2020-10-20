@@ -20,6 +20,16 @@ Para el apartado **d**, tendremos que modificar la masa de la esfera. Esto se ha
 
 En este caso, el resultado no es el que se podría esperar: la esfera cae exactamente a la misma velocidad que el cubo.
 
+Sin embargo, si observamos la interacción entre los objetos, podemos ver que aumentar el peso de la esfera hace que empuje más al cubo al chocar con él. Veamos:
+
+Este es la esfera cayendo con peso = 1 (el cubo también tiene peso = 1)
+
+![Ball Falling on Cube (light)](img/fallingLight.gif)
+
+Ahora, la esfera cayendo con peso = 10 (el cubo sigue teniendo peso = 1)
+
+![Ball Falling on Cube (light)](img/fallingHeavy.gif)
+
 Para el apartado **e**, tendremos que modificar la componente Box Collider de nuestro objeto Cubo.
 
 ![Modifying Collider Component](img/ColliderSettings.PNG)
