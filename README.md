@@ -29,3 +29,9 @@ Para el siguiente apartado, tendremos que bloquear la rotación del cubo en cier
 ![Freezing Rotation on Axis](img/FreezeRot.PNG)
 
 Aquí, haremos tick en las cajas de X y Z del apartado Freeze Rotation. Los resultados de hacer esto realmente son poco/no apreciables en la escena actual, aunque se puede suponer que el cubo no podrá rotar en los ejes X ni Z. 
+
+
+### Ejercicio 2
+
+Para empezar, reescalaremos el plano para poder movernos con libertad, eliminaremos el objeto esfera y recolocaremos el cubo de forma centrada. Esto nos hará las cosas más fáciles. Ahora, crearemos un script nuevo en el apartado de proyecto.
+
