@@ -1,5 +1,7 @@
 # Práctica 2 - José Nicolás Cabrera Domínguez (alu0101051420)
 
+### Ejercicio 1
+
 El apartado **a** es muy sencillo: como ya hemos visto, introducimos los tres objetos en el menú GameObject > 3D Object seleccionando el que querramos incluir.
 La escena, después de colocar y separar los objetos, queda así:
 
