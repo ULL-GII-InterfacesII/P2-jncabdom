@@ -48,5 +48,7 @@ Aquí, haremos tick en las cajas de X y Z del apartado Freeze Rotation. Ahora, s
 
 Para empezar, reescalaremos el plano para poder movernos con libertad, eliminaremos el objeto esfera y recolocaremos el cubo de forma centrada. Esto nos hará las cosas más fáciles. Como en el apartado **a** se nos indica que no debemos aplicar simulación física, no incluiremos en nuestro cubo una componente de Rigidbody. Ahora, podemos pasar a crear un nuevo script.
 
+![Code for the Script](img/code.PNG)
 
+Este será el script que nos permitirá un control muy básico sobre nuestro cubo. Como podemos ver, al no incluir una componente Rigidbody, no podemos utilizarlo para el movimiento (mediante AddForce). Por tanto, utilizaremos transform para el movimiento. Vemos también que, como se nos indica en el apartado **b**, se incluye el valor público para configurar la velocidad del movimiento. Esta velocidad se utiliza más adelante al hacer el translate.
 
