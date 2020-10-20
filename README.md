@@ -46,5 +46,7 @@ Aquí, haremos tick en las cajas de X y Z del apartado Freeze Rotation. Ahora, s
 
 ### Ejercicio 2
 
-Para empezar, reescalaremos el plano para poder movernos con libertad, eliminaremos el objeto esfera y recolocaremos el cubo de forma centrada. Esto nos hará las cosas más fáciles. Ahora, crearemos un script nuevo en el apartado de proyecto.
+Para empezar, reescalaremos el plano para poder movernos con libertad, eliminaremos el objeto esfera y recolocaremos el cubo de forma centrada. Esto nos hará las cosas más fáciles. Como en el apartado **a** se nos indica que no debemos aplicar simulación física, no incluiremos en nuestro cubo una componente de Rigidbody. Ahora, podemos pasar a crear un nuevo script.
+
+
 
