@@ -40,8 +40,9 @@ Para el siguiente apartado, tendremos que bloquear la rotación del cubo en cier
 
 ![Freezing Rotation on Axis](img/FreezeRot.PNG)
 
-Aquí, haremos tick en las cajas de X y Z del apartado Freeze Rotation. Los resultados de hacer esto realmente son poco/no apreciables en la escena actual, aunque se puede suponer que el cubo no podrá rotar en los ejes X ni Z. 
+Aquí, haremos tick en las cajas de X y Z del apartado Freeze Rotation. Ahora, si volvemos a probar la colisión entre los objetos, comprobaremos que efectivamente el cubo no puede rotar en los ejes X ni Z. Por esto, parecería que está completamente quieto cuando la esfera lo golpea.
 
+![Ball Falling on Cube No Movement](img/fallingHeavyNoRot.gif)
 
 ### Ejercicio 2
 
