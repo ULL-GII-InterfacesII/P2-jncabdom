@@ -7,7 +7,7 @@ La escena, después de colocar y separar los objetos, queda así:
 
 Para añadir físicas a un objeto, necesitaremos incluir en él un componente Rigidbody. Para esto, seleccionamos el objeto y en el inspector, añadimos un nuevo componente.
 
-![Adding a rigidBody to an object](addRigid.gif)
+![Adding a rigidBody to an object](img/addRigid.gif)
 
 Esto lo utlizaremos para los apartados b y c. 
 Al aplicarle físicas, vemos que tanto el cubo como la esfera se comportan de la misma forma: el objeto se ve ahora afectado por la gravedad, y cae sobre el plano.
