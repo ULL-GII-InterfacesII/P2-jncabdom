@@ -2,7 +2,7 @@
 
 ### Ejercicio 1
 
-El apartado **a** es muy sencillo: como ya hemos visto, introducimos los tres objetos en el menú GameObject > 3D Object seleccionando el que querramos incluir.
+El apartado **a** es muy sencillo: como ya hemos visto, introducimos los tres objetos en el menú GameObject > 3D Object seleccionando el que queramos incluir.
 La escena, después de colocar y separar los objetos, queda así:
 
 ![Initial Scene Layout](img/firstScene.PNG)
@@ -50,5 +50,14 @@ Para empezar, reescalaremos el plano para poder movernos con libertad, eliminare
 
 ![Code for the Script](img/code.PNG)
 
-Este será el script que nos permitirá un control muy básico sobre nuestro cubo. Como podemos ver, al no incluir una componente Rigidbody, no podemos utilizarlo para el movimiento (mediante AddForce). Por tanto, utilizaremos transform para el movimiento. Vemos también que, como se nos indica en el apartado **b**, se incluye el valor público para configurar la velocidad del movimiento. Esta velocidad se utiliza más adelante al hacer el translate.
+Este será el script que nos permitirá un control muy básico sobre nuestro cubo. Vemos que, como se nos indica en el apartado **b**, se incluye el valor público para configurar la velocidad del movimiento. Esta velocidad se utiliza más adelante al hacer el translate.
 
+![Moving Cube](img/movingCube.gif)
+
+### Ejercicio 3
+
+Para este ejercicio, colocaremos unas esferas en la escena. En mi caso, 4. Las dos de la derecha tienen como tag SphereA y las dos de la izquierda Sphere. Para el primer apartado (cambiar colores y empujar), utilizaremos un script.
+
+![Script Code](img/Code2.PNG)
+
+![Pushing Balls](img/pushingBalls.gif)
