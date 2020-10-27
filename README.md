@@ -61,3 +61,11 @@ Para este ejercicio, colocaremos unas esferas en la escena. En mi caso, 4. Las d
 ![Script Code](img/code2.PNG)
 
 ![Pushing Balls](img/pushingBalls.gif)
+
+Para el segundo apartado, desarrollaremos un script que aplicaremos a los cilindros. Es este:
+
+![Cylinder Script](img/code3.PNG)
+
+Como podemos ver, es un script muy sencillo. Funciona calculando la distancia entre el propio objeto y el que nosotros le indiquemos como target. En caso de que la distancia sea menor a la establecida, se calcula la dirección en la que está el objeto target y se mueve en la dirección contraria.
+
+![Pushing Cylinders](img/pushingCylinders.gif)
