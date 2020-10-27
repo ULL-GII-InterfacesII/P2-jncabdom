@@ -58,6 +58,6 @@ Este será el script que nos permitirá un control muy básico sobre nuestro cub
 
 Para este ejercicio, colocaremos unas esferas en la escena. En mi caso, 4. Las dos de la derecha tienen como tag SphereA y las dos de la izquierda Sphere. Para el primer apartado (cambiar colores y empujar), utilizaremos un script.
 
-![Script Code](img/Code2.PNG)
+![Script Code](img/code2.PNG)
 
 ![Pushing Balls](img/pushingBalls.gif)
