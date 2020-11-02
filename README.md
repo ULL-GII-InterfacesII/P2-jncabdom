@@ -81,11 +81,18 @@ Para añadir ejes nuevos, lo haremos en Edit > Project Settings. Aquí seleccion
 
 Ahora, pasaremos a modificar el script de control del movimiento:
 
-![New Character Control](img/Code4.PNG)
+![New Character Control](img/code4.PNG)
 
 Vemos que ahora, los ejes tanto vertical como horizontal son variables públicas. Ahora, desde el inspector de unity, podremos introducir los ejes a utilizar. (En este caso Horizontal/Horizontal1 y Vertical/Vertical1)
 
 ![New Character Moving](img/twoCharactersMoving.gif)
 
 Para el último apartado, colocaremos unos cubos en la escena y pasaremos a crear un nuevo script que aplicarles.
+El script será el siguiente:
 
+![Size Changing Script](img/code5.PNG)
+
+Y este, el resultado de aplicarlo a los cubos:
+
+![Cubes Shrinking](img/cubeShrink.gif)
+![Cubes Enlarging](img/cubeEnlarge.gif)
