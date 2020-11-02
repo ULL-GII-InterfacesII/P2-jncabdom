@@ -71,3 +71,21 @@ Para el segundo apartado, desarrollaremos un script que aplicaremos a los cilind
 Como podemos ver, es un script muy sencillo. Funciona calculando la distancia entre el propio objeto y el que nosotros le indiquemos como target. En caso de que la distancia sea menor a la establecida, se calcula la dirección en la que está el objeto target y se mueve en la dirección contraria.
 
 ![Pushing Cylinders](img/pushingCylinders.gif)
+
+Para crear el nuevo objeto controlado con I, L, J y M, incluiremos unos ejes nuevos para poder utilizar GetAxis(). Así, podremos reutilizar el primer script de control, con muy pocos cambios. 
+Para añadir ejes nuevos, lo haremos en Edit > Project Settings. Aquí seleccionaremos Input Manager. Aquí podremos (con clic derecho) duplicar los ejes horizontal y vertical para renombrarlos y asignar teclas nuevas.
+
+![Input Manager](img/InputManager.PNG)
+![New Horizontal Axis](img/Hori2.PNG)
+![New Vertical Axis](img/Verti2.PNG)
+
+Ahora, pasaremos a modificar el script de control del movimiento:
+
+![New Character Control](img/Code4.PNG)
+
+Vemos que ahora, los ejes tanto vertical como horizontal son variables públicas. Ahora, desde el inspector de unity, podremos introducir los ejes a utilizar. (En este caso Horizontal/Horizontal1 y Vertical/Vertical1)
+
+![New Character Moving](img/twoCharactersMoving.gif)
+
+Para el último apartado, colocaremos unos cubos en la escena y pasaremos a crear un nuevo script que aplicarles.
+
