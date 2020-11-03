@@ -36,7 +36,7 @@ Para el apartado **e**, tendremos que modificar la componente Box Collider de nu
 
 Al no tener físicas el cubo, no parece haber cambios en la escena. La bola cae y el cubo no. Sin embargo, en el siguiente apartado se apreciará mejor la influencia de lo que hemos hecho. Como ya hemos visto, aplicamos físicas al cubo añadiéndole una componente Rigidbody. El resultado, como hemos visto en las transparencias del tema, es el siguiente: el cubo cae a la vez que la esfera y atraviesa el plano. Esto es porque un objeto de naturaleza IsTrigger solo utiliza el collider para **detectar** las colisiones; no para restringir el movimiento del propio objeto.
 
-![Cube Falling](img/CubeFalling.gif)
+![Cube Falling](img/cubeFalling.gif)
 
 Para el siguiente apartado, tendremos que bloquear la rotación del cubo en ciertos ejes. Esto se consigue modificando la componente Rigidbody, bajo la pestaña de Constraints.
 
